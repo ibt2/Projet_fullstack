@@ -1,6 +1,8 @@
-#  TP Complet - Spring Boot + React + MariaDB + Prometheus + Grafana
+#  TP Full stack
+- Spring Boot , React , MariaDB, Prometheus , Grafana
 
-Ce projet met en place une application complète basée sur 5 conteneurs Docker :  
+Ce projet met en œuvre une application full-stack complète reposant sur cinq conteneurs Docker, assurant à la fois la gestion backend, l’interface frontend, la base de données et le monitoring.
+Composition de l’application:
 - **Backend :** Spring Boot :**  http://localhost:9090/api
 - **Frontend :** React :**  http://localhost:8088/
 - **Base de données :** MariaDB  
@@ -10,7 +12,7 @@ Ce projet met en place une application complète basée sur 5 conteneurs Docker 
 
 ##  Étapes pour exécuter le projet
 
-###  Construire toutes les images Docker
+###  Construire toutes les images Docker et Démarrage des conteneurs
 ```bash
 docker compose build --no-cache
 docker compose up -d
